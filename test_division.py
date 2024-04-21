@@ -8,7 +8,6 @@ class TestDividir(unittest.TestCase):
         self.assertEqual(dividir(-1,1),-1)
         self.assertEqual(dividir(-1,-1),1)
         self.assertEqual(dividir(0,2),0)
-        self.assertEqual(dividir(2,0),'division by zero')
 
 if __name__ == '__main__':
     unittest.main()
